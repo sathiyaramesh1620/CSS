@@ -1,0 +1,108 @@
+/* Back ground clips */
+ /* div{
+    width: 800px;
+    height: 400px;
+    background-image: url(./image/bird.jpg);
+    background-size: cover;
+    /* color: #fff; */
+    /* font-size: 100px;
+    font-family:Impact;
+    text-align: center;
+    color: transparent;
+   -webkit-background-clip: text;
+}  */ 
+/* Background Gradient */
+/* div{
+    height: 600px;
+    width: 800px;
+    background-color: red;
+    background:linear-gradient(red,yellow);
+    background: linear-gradient(#3498db,#f1c40f);
+    background: linear-gradient(to right,#3498db,#f1c40f);
+    background: linear-gradient(to left,#3498db,#f1c40f);
+    background: linear-gradient(to top,#3498db,#f1c40f);
+    background: linear-gradient(to bottom,#3498db,#f1c40f);
+    background: linear-gradient(to bottom right,#3498db,#f1c40f);
+    background: linear-gradient(to bottom left,#3498db,#f1c40f);
+    background: linear-gradient(to top left,#3498db,#f1c40f);
+    background: linear-gradient(to top right,#3498db,#f1c40f);
+    
+    
+    background: linear-gradient(50deg,#3498db,#f1c40f);
+    background: linear-gradient(-50deg ,#3498db,#f1c40f);
+    
+    background: repeating-linear-gradient(#3498db,#f1c40f 20%,red 10%);
+    
+    
+   background: radial-gradient(#2ecc71 15%,#c0392b 50%,blue);
+   
+   
+
+   background: radial-gradient(
+    closest-side at 50% 50%,red,yellow,green);
+   
+
+    background: radial-gradient(
+        closest-side at 10% 50%,red,yellow,green);
+        background: radial-gradient(
+    farthest-side at 50% 50%,red,yellow,green);
+   
+    background: radial-gradient(
+        closest-corner at 10% 10%,red,yellow,green);
+        background: radial-gradient(
+    farthest-corner at 10% 10%,red,yellow,green);
+    background: repeating-radial-gradient(
+        red,yellow 10%,green 15%);
+       
+        background-image: radial-gradient(
+    closest-side at 50% 50%,red,yellow,green);
+    background-image: conic-gradient(red,yellow,green);
+    border-radius: 50%;
+    background-image: conic-gradient(from 90deg,red,yellow,green) ;
+   background-image: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg);
+   
+
+   background-image: repeating-conic-gradient(red 10%,yellow 20%);
+   background-position: 50%;
+   background-image: conic-gradient( at 10% 55%,red,yellow,green);
+} */
+
+/* div{
+    width: 800px;
+    border: 1px solid #333;
+    padding: 50px;
+}
+img{
+    opacity: 0.3;
+} */
+
+
+/* Text Properties */
+
+html{
+    background: teal;
+}
+body{
+    height: 1000px;
+    width: 800px;
+    background: white;
+}
+h1{
+    letter-spacing: 15px;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-align: center;
+}
+b{
+    /* vertical-align: sub; */
+    vertical-align: super;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+    
+}
+
